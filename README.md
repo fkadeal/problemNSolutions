@@ -14,3 +14,9 @@ using Vue filters inside funcitons
 ## solution :
         sudo apt-get install php8.0-curl php8.0-gd php8.0-xsl php8.0-dom
         https://stackoverflow.com/questions/29318709/how-can-i-resolve-your-requirements-could-not-be-resolved-to-an-installable-set
+
+
+# laravel sanctom error = message : "CSRF token mismatch."
+## solution for this
+         If u are trying it on localhost, so u can try this one: (.env) settings: SESSION_DOMAIN=localhost SANCTUM_STATEFUL_DOMAINS=localhost
+         
