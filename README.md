@@ -20,3 +20,9 @@ using Vue filters inside funcitons
 ## solution for this
          If u are trying it on localhost, so u can try this one: (.env) settings: SESSION_DOMAIN=localhost SANCTUM_STATEFUL_DOMAINS=localhost
          
+# laravel error : the redis extention to be enable ,
+        ## SOLUTION I GET , IS 
+        https://romanmiranda.com/install-php-redis-extension-in-mac-with-homebrew/
+        
+        or just run:  pecl install redis
+        it works on php 8.0 and using mac 
