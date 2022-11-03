@@ -14,18 +14,15 @@ using Vue filters inside funcitons
 
 ## deployment  
 
-# (php artisan down) || true 
+php artisan down
 # Install composer dependencies
 composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
 
 # Clear the old cache
 php artisan clear-compiled
 
-
 # Recreate cache
-php artisan optimize
-
-#php artisan migrate:rollback
+php artisan optimize 
 
 # Run database migrations
 php artisan migrate --force  
