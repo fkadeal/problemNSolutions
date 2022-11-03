@@ -14,17 +14,14 @@ using Vue filters inside funcitons
 
 ## deployment  
 
-php artisan down
-#### Install composer dependencies
+php artisan down 
+
 composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
-
-#### Clear the old cache
+ 
 php artisan clear-compiled
-
-#### Recreate cache
+ 
 php artisan optimize 
-
-#### Run database migrations
+ 
 php artisan migrate --force  
-#### Exit maintenance mode
+ 
 php artisan up
