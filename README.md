@@ -14,14 +14,14 @@ using Vue filters inside funcitons
 
 ## deployment  
 
-php artisan down 
+        php artisan down 
 
-composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
- 
-php artisan clear-compiled
- 
-php artisan optimize 
- 
-php artisan migrate --force  
- 
-php artisan up
+        composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+        
+        php artisan clear-compiled
+        
+        php artisan optimize 
+        
+        php artisan migrate --force  
+        
+        php artisan up
