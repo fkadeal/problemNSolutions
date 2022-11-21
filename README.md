@@ -26,3 +26,6 @@ using Vue filters inside funcitons
 
         or just run:  pecl install redis
         it works on php 8.0 and using mac 
+
+# Enable TCP/IP Android Debugging 
+        ## solution https://ihilalahmadd.medium.com/how-to-debug-android-application-over-wifi-without-usb-cable-d29927891614
