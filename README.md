@@ -29,3 +29,7 @@ using Vue filters inside funcitons
 
 # Enable TCP/IP Android Debugging 
         ## solution https://ihilalahmadd.medium.com/how-to-debug-android-application-over-wifi-without-usb-cable-d29927891614
+        
+# error ubuntu not init with systemd: solution is to run Script to enable systemd support on current Ubuntu WSL2
+        ## solution https://www.youtube.com/watch?v=oILBqhnyCPA&t=10s
+                https://github.com/DamionGans/ubuntu-wsl2-systemd-script
